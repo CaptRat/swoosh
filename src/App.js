@@ -7,12 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-
           <h2>Welcome to Swoosh</h2>
         </div>
-        <p className="App-intro">
-          (Three "cursor onhover listener" blocks go here.)
-        </p>
+        <div className="square"></div>
+        <div className="square"></div>
+        <div className="square"></div>
       </div>
     );
   }

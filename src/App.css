@@ -18,6 +18,21 @@
   font-size: large;
 }
 
+.square {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: white;
+  border: solid 1px black;
+}
+
+.square:hover {
+  background-color: slategrey;
+
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
