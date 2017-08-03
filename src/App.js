@@ -13,6 +13,36 @@ class App extends Component {
           <div className="square"></div>
           <div className="square"></div>
           <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
         </div>
       </div>
     );
@@ -20,4 +50,3 @@ class App extends Component {
 }
 
 export default App;
-// <img src={logo} className="App-logo" alt="logo" />
