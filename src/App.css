@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -18,22 +19,25 @@
   font-size: large;
 }
 
-.square {
+.container {
   display: flex;
+}
+
+.square {
+
   width: 200px;
   height: 200px;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
   background-color: white;
   border: solid 1px black;
 }
 
 .square:hover {
   background-color: slategrey;
-
 }
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/

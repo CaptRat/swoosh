@@ -9,9 +9,11 @@ class App extends Component {
         <div className="App-header">
           <h2>Welcome to Swoosh</h2>
         </div>
-        <div className="square"></div>
-        <div className="square"></div>
-        <div className="square"></div>
+        <div className="container">
+          <div className="square"></div>
+          <div className="square"></div>
+          <div className="square"></div>
+        </div>
       </div>
     );
   }
