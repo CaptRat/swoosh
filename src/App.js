@@ -4,10 +4,14 @@ import './App.css';
 
 
 class App extends Component {
-  buildSquares() {
+
     constructor(props) {
       super(props);
-      this.state = { width: '0', height: '0' };
+      this.state = {
+        width: '0',
+        height: '0',
+        numSquares: 10000,
+      };
       this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
@@ -24,7 +28,9 @@ class App extends Component {
       this.setState({ width: window.innerWidth, height: window.innerHeight });
     }
 
-    let anotherarr = new Array(10000).fill().map((c, i) => <div key={i} className="square"></div>)
+  buildSquares() {
+    console.log(this.state.numSquares);
+    let anotherarr = new Array(this.state.numSquares).fill().map((c, i) => <div key={i} className="square"></div>)
     return anotherarr
   }
 
